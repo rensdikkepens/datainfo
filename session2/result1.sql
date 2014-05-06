@@ -1,0 +1,10 @@
+INSERT into "Problem1" VALUES ('a', 'false', 'meerdere capaciteiten voor meerdere voertuigen');
+INSERT into "Problem1" VALUES ('b', 'true', 'een voertuig heeft slechts 1 capaciteit');
+INSERT into "Problem1" VALUES('c', 'true', 'statement 8');
+INSERT into "Problem1" VALUES('d', 'true', 'statement 8');
+INSERT into "Problem1" VALUES('e', 'true', 'statement 4 & statement 5 & statement 6');
+INSERT into "Problem1" VALUES('f', 'true', 'statement 1 & 2 ,als B maar 1 V heeft');
+INSERT into "Problem1" VALUES('g', 'true', 'statement 1&2, als B maar 1 V heeft');
+INSERT into "Problem1" VALUES('h', 'true', 'statement 2');
+INSERT into "Problem1" VALUES('i', 'true', 'statement 3');
+INSERT into "Problem1" VALUES('j', 'true', 'statement 2&3');
