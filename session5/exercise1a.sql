@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS Boek (
+isbn VARCHAR (13), 
+titel (45),
+auteur VARCHAR(45),
+PRIMARY KEY (isbn),
+);
+
+CREATE TABLE IF NOT EXISTS Exemplaar (
+isbn VARCHAR(13) NOT NULL,
+volgnummer SMALLINT,
+gewicht INT,
+kast VARCHAR(20),
+PRIMARY KEY (isbn, volgnummer),
+FOREIGN KEY (isbn) REFERENCES Boek(isbn)
+ON DELETE CASCADE
+ON UPDATE CASCADE,
+);
